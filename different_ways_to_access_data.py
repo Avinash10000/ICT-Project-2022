@@ -1,7 +1,6 @@
 import pandas as pd
 from pytrends.request import TrendReq
 pytrends = TrendReq(hl='en-GB', tz=360)
-pytrends.build_payload(kw_list=['machine learning'])
 
 
 def getkeywordssuggestions():
