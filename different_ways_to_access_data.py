@@ -27,7 +27,7 @@ def getrelatedqueries():
     print(related_queries)
     
 
-what_do_you_want_to_do=input('Welcome to the Google Trends API Harnessing Tool. If you want to get keyword suggestions, please type "a". If you want to get related queries to a term, please type "b".')
+what_do_you_want_to_do=input('Welcome to the Google Trends API Harnessing Tool. This tool is used to extract data related to popular searches. If you want to get keyword suggestions related to a term, please type "a". If you want to get related queries to a term, please type "b".')
 
 if what_do_you_want_to_do == 'a':
     getkeywordssuggestions()
